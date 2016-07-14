@@ -1,3 +1,3 @@
 FROM jeromefromcn/docker-alpine-java-bash
 MAINTAINER Jerome Jiang
-COPY dubbo-monitor/ /
+COPY dubbo-monitor/ /dubbo-monitor/
