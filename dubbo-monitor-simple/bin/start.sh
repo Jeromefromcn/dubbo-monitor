@@ -1,5 +1,5 @@
 #!/bin/bash
-sed -i -e "s/{ZOOKEEPER_ADDRESS}/$ZOOKEEPER_ADDRESS/g" /dubbo-monitor-simple/conf/dubbo.properties
+sed -e "s/{ZOOKEEPER_ADDRESS}/$ZOOKEEPER_ADDRESS/g" /dubbo-monitor-simple/conf/dubbo_origin.properties > /dubbo-monitor-simple/conf/dubbo.properties
 cd `dirname $0`
 BIN_DIR=`pwd`
 cd ..
